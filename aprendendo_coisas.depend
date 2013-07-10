@@ -25,3 +25,26 @@
 
 1373418156 /home/ruan/Documentos/aprendendo_coisas2/Figuras.h
 
+1373418156 source:/home/ruan/Documentos/aprendendo_coisas/Item.c
+	<stdlib.h>
+	<stdio.h>
+	"Item.h"
+
+1373418156 /home/ruan/Documentos/aprendendo_coisas/Item.h
+	"Figuras.h"
+
+1373418156 /home/ruan/Documentos/aprendendo_coisas/Figuras.h
+
+1373418156 source:/home/ruan/Documentos/aprendendo_coisas/Lista.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1373349422 /home/ruan/Documentos/aprendendo_coisas/Lista.h
+	"Item.h"
+
+1373417979 source:/home/ruan/Documentos/aprendendo_coisas/main.c
+	<stdlib.h>
+	<stdio.h>
+	"Lista.h"
+

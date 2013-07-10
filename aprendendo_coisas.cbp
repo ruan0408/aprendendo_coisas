@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="aprendendo_coisas2" />
+		<Option title="aprendendo_coisas" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/aprendendo_coisas2" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/aprendendo_coisas" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -31,6 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Figuras.h" />
 		<Unit filename="Item.c">
 			<Option compilerVar="CC" />
 		</Unit>
