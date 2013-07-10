@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1373416753 source:/home/ruan/Documentos/aprendendo_coisas2/Item.c
+	<stdlib.h>
+	<stdio.h>
+	"Item.h"
+
+1373418156 /home/ruan/Documentos/aprendendo_coisas2/Item.h
+	"Figuras.h"
+
+1373417619 source:/home/ruan/Documentos/aprendendo_coisas2/Lista.c
+	<stdio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1373349422 /home/ruan/Documentos/aprendendo_coisas2/Lista.h
+	"Item.h"
+
+1373417979 source:/home/ruan/Documentos/aprendendo_coisas2/main.c
+	<stdlib.h>
+	<stdio.h>
+	"Lista.h"
+
+1373402138 source:/home/ruan/Documentos/aprendendo_coisas2/Figuras.c
+	"Figuras.h"
+
+1373418156 /home/ruan/Documentos/aprendendo_coisas2/Figuras.h
+

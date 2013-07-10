@@ -33,7 +33,6 @@ Lista listaInit()
 {
     Lista nova = malloc(sizeof *nova);
     nova->head = malloc(sizeof (*nova->head));
-    nova->head->info = itemAlloc();
     nova->head->prox = NULL;
     return nova;
 }
@@ -85,10 +84,10 @@ void listaFree(Lista lista)
     while(!listaVazia(lista))
     {
         dead = lista->head->prox;
-        lista->head->prox = lista->head->prox->prox;
+        lista->head->prox = dead->prox;
         FREE(dead);
     }
-    FREE(lista->head);
+    free(lista->head);
     free(lista);
     lista = NULL;
 }

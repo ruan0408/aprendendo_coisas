@@ -1,6 +1,6 @@
 #ifndef LISTA_H_INCLUDED
 #define LISTA_H_INCLUDED
-#define NULLlist NULL
+
 #include "Item.h"
 
 typedef struct list* Lista;
